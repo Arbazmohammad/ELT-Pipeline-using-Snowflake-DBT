@@ -1,9 +1,9 @@
 dbt_snowflake_project:
   outputs:
     dev:
-      account: pbb49010.us-west-2
+      account: ********* #snowflake account
       database: dbt_db
-      password: ******** /snowflake accound password
+      password: ******** #snowflake account password
       role: dbt_role
       schema: dbt_schema
       threads: 10
