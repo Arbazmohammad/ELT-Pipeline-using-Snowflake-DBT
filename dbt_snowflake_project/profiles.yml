@@ -1,0 +1,13 @@
+dbt_snowflake_project:
+  outputs:
+    dev:
+      account: pbb49010.us-west-2
+      database: dbt_db
+      password: Arbazuddin786$
+      role: dbt_role
+      schema: dbt_schema
+      threads: 10
+      type: snowflake
+      user: ARBAZMOHAMMAD
+      warehouse: dbt_wh
+  target: dev
